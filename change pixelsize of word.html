@@ -1,0 +1,40 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Word Processing</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+</head>
+<body><br>
+<h1 id="myHeading" align="center" style="font-size: larger;">Pleas input a
+sentence!</h1>
+<form name="myForm" id="myForm" action="#" method="get">
+<p align="center"><br />
+<input type="text" name="myText" id="myText" size="30" />
+<input type="button" value="Input a sentence"
+onclick="document.getElementById('myHeading').textContent=document.myForm.myText.value;document.getElementById('myHeading').innerText=document.myForm.myText.value;"
+/></p>
+<p align="center">
+<input type="button" value="Align Left"
+onclick="document.getElementById('myHeading').align='left';" />
+<input type="button" value="Align Center"
+onclick="document.getElementById('myHeading').align='center';" />
+<input type="button" value="Align Right"
+onclick="document.getElementById('myHeading').align='right';" /><br /><br
+/>
+<input type="button" name="Submit" value="72 px size"
+onClick="document.getElementById('myHeading').style.fontSize='72'+'px';">
+<input type="button" value="36 px size"
+onclick="document.getElementById('myHeading').style.fontSize='36'+'px';"
+/>
+ <input type="button" value="18 px size"
+onclick="document.getElementById('myHeading').style.fontSize='18'+'px';"
+/><br /><br />
+<input type="button" value="Red"
+onclick="document.getElementById('myHeading').style.color='red';" />
+<input type="button" value="Blue"
+onclick="document.getElementById('myHeading').style.color='blue';" />
+<input type="button" value="Green"
+onclick="document.getElementById('myHeading').style.color='green';" />
+<br /></p>
+</form>
+</body>
+</html>

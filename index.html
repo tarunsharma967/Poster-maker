@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bootstrap</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="fonts/fontawesome.css">
+	<link rel="stylesheet" type="text/css" href="fonts/glyphicons.css">
+	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+	<style type="text/css">
+		@font-face{
+	font-family:post;
+	src:url("fonts/DancingScript-Regular.ttf");
+	}
+	@font-face{
+	font-family:bolds;
+	src:url("fonts/DancingScript-Bold.ttf");
+	}
+	</style>
+</head>
+<body>
+      <section class="setion-header">
+      <div class="banner-bg"></div>
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">smart poster maker</a>
+				</div>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Team</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center header-text">
+					<h1>Your Favorite Source of Free poster Themes</h1>
+					<hr>
+					<center>
+					<p>Here is what all you need in order to edit any poster of your choice!
+					 have provided our best in order to full fill your needs and aspectations...</p>
+				    </center>
+					<button type="button" class="btn btn-danger">FIND OUT MORE</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section-about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center header-text">
+					<h2>We'vewhat you need!</h2>
+					<hr>
+					<centere>
+					<p>So what are you waiting for?
+					Go and grab the opportunity to make some one happy by creating attractive posters for them</p>
+				    </centere>
+				    <a href="./editor.html">
+					<button type="button" class="btn btn-info">GET STARTED!</button>
+				</a>
+				</div>
+			</div>
+		</div>
+	</section>
+		<div class="section-gallery">
+		<div class="contanir">
+			<div class="ooho-heading">
+				<h2>Gallery <hr></h2>
+			</div>
+			<div class="dish-gallery">
+				<div class="img-item">
+					<!--<a href="#">-->
+						<a href="./editor.html"><img src="image/birthday.jpg"></a>
+
+						<div class="img-heading">
+							
+
+ 						</div>
+					<!--</a>-->
+				</div>
+				<div class="img-item">
+					<a href="./editor.html">
+						<img src="image/comp.jpg">
+						<div class="img-heading">
+						
+
+						</div>
+					</a>
+				</div>
+				<div class="img-item">
+					<a href="./editor.html">
+						<img src="image/aniversary.jpg">
+						<div class="img-heading">
+					
+						</div>
+					</a>
+				</div>
+				<div class="img-item">
+					<a href="./editor.html">
+						<img src="image/rj.jpg">
+						<div class="img-heading">
+						
+
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+			
+		</div>
+		<br>
+		<br>
+		<br>
+		<section class="section-dark">
+			<center>
+<p><strong <center>
+<p><strong style="font-size: 20px; color: white;">Feedback From</strong></p>
+<br>
+</center>
+<form name="myForm" method="post" onSubmit="javascript:return
+checkEmpty(this);">
+<table width="36" border="0" cellspacing="1" cellpadding="1"
+align="center" padding="10px">
+<tr>
+<td style="font-size:20px; color: white;">Phone:
+<input type=text name=phone size="30">
+</td>
+</tr>
+<br>
+<tr>
+<td style=" font-size:20px; color: white;">Email:
+<input type="text" name=email size="30">
+</td>
+</tr>
+<br>
+
+<tr>
+<td style="font-size:20px; color: white;">Message:<br>
+
+<textarea name=message cols=30 rows=6></textarea>
+</td>
+</tr>
+<tr>
+<td>
+<div align="right">
+ <input type="submit" name="pub" value="Check Empty">
+</div>""
+</td>
+</tr>
+</table>
+</form>
+
+    </section>
+</body>
+<script language="JavaScript">
+function checkEmpty(myForm)
+{
+if (myForm.phone.value == "")
+{
+alert("Please enter phone number!");
+myForm.email.focus();
+return (false);
+}
+if (myForm.email.value == "")
+{
+alert("Please enter email address!");
+myForm.message.focus();
+return (false);
+}
+if (myForm.message.value == "")
+{
+alert("Please leave a message!");
+myForm.phone.focus();
+return (false);
+}
+}
+</script>
+</html>
