@@ -1,0 +1,221 @@
+::selection{
+	background:#000;
+}
+.setion-header{
+	width: 100%;
+	height:100vh;
+	background: url("../image/4.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.banner-bg{
+	width: 100%;
+    height: 100vh;
+    background: #0c0c0ceb;;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+}
+.header-text{
+	padding: 80px 0px;
+}
+.header-text h1{
+    color: #0942e8;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: bolder;
+    padding: 10px 0px 10px 0px;
+    font-family: post;
+}
+.header-text hr{   
+     width: 50px;
+    color: #F05F40;
+    border: 1px solid #F05F40;
+}
+.header-text p{
+	font-size: 17px;
+	text-transform: uppercase;
+    color: #fff;
+    padding:13px 0px 38px 0px;
+}
+
+
+.btn-danger{
+	    color: #fff;
+    background-color: #1BD7EC;
+    border-color: white;
+    width: 187px;
+    height: 55px;
+    border-radius: 36px;
+}
+ .navbar-default{
+    background-color: rgba(0, 0, 0, -0.6);
+    border-color: rgba(42, 28, 28, 0);
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: post;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: red;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: blue;
+    background-color: transparent;
+}
+
+.section-about{
+	width: 100%;
+	padding: 10px 0px;
+	background:#2ccca1;;
+}
+.header-text{
+padding: 80px 0px;	
+}
+.header-text h2{
+	color: #fff;
+	text-transform:lowercase;
+	    font-size: 35px;
+    font-weight: 100;
+	padding: 10px 0px 10px 0px;
+}
+.header-text hr{   
+         width: 55px;
+    color: #F05F40;
+    border: 1px solid #fff;
+}
+.header-text p{
+	    font-size: 19px;
+    text-transform: lowercase;
+    color: rgba(249, 246, 246, 0.65);
+    padding: 13px 0px 22px 0px;
+}
+.btn-info{
+       color: #000;
+    background-color: #fff;
+    border-color: #fff;
+    width: 187px;
+    height: 55px;
+    border-radius: 36px;
+    font-size: 20px;
+        font-size: 15px;
+    font-weight: bold;	
+}
+.section-service{
+	width: 100%;
+	padding: 10px 0px;
+	background: #fff;
+}
+.header-text{
+	padding: 80px 0px;
+}
+.col-lg-3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.strong {
+    font-weight: 200;
+    font-size: 20px;
+}
+.per{
+        font-size:17px;
+        color: rgba(138, 70, 70, 0.48);
+}
+.section-heading h3{
+	color: #fff;
+	text-transform:lowercase;
+	font-style: 32px;
+	padding: 10px 0px 10px 0px;
+}
+
+
+h3{
+	font-size: 32px;
+}
+.section-service hr{
+  width: 55px;
+    color: #F05F40;
+    border: 1px solid #f21;	
+}
+.section-gallery{
+    width: 100%;
+    height: 300px;
+}
+.section-gallery .contanir .ooho-heading h2{
+   text-transform: uppercase;
+}
+.section-gallery .contanir .ooho-heading hr{
+   width: 200px;
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.section-gallery .dish-gallery .img-item{
+        width: 200px;
+        height: 200px;
+        border:1px solid #ccc;
+        float: left;
+        margin:50px 10px;
+}
+.section-gallery .dish-gallery .img-item img{
+           width: 198px;
+    height: 198px;
+    border: 3px solid #000000ad;
+    box-shadow: 1px -1px 17px 6px #1918a2b8;
+}
+.section-gallery .dish-gallery .img-item .img-heading{
+    padding: 15px 0px;
+}
+.section-gallery .dish-gallery .img-item .img-heading span:nth-child(1){
+    display: inline-block;
+    width: 162px;
+}
+.section-gallery .dish-gallery .img-item .img-heading span:nth-child(2){
+    position: relative;
+    top: -15px;
+}
+.section-gallery .dish-gallery .img-item .img-heading .star{
+    display: inline-block;
+}
+.section-gallery .dish-gallery .img-item .img-heading .star i{
+    color: #ccc;
+}
+.section-gallery .dish-gallery .img-item .img-heading .star i:hover{
+    color: #ffe100;
+}
+
+
+.section-dark{
+        width: 100%;
+    background: #212529;
+    padding: 10px 0px;
+    height:475px;
+    position:absolute;
+}
+.mb-4{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 211px;
+}
+.btn-danger {
+    color: #080808;
+    background-color: #fff;
+    border-color: #eee;
+    width: 187px;
+    height: 55px;
+    border-radius: 36px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
